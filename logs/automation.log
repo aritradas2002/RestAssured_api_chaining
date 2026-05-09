@@ -1,0 +1,396 @@
+2026-05-09 10:53:13 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 10:53:13 INFO  ApiChaining - Set the base Url
+2026-05-09 10:53:14 INFO  Listener - TEST STARTED: get_bookings
+2026-05-09 10:53:17 INFO  ApiChaining - The id[d25224c2-3056-41fc-8f23-73c14e1a8b54, 502fcf22-637c-4bc7-af18-3f662d122539, 9f5c2467-eb5e-4a6c-a722-3dec0f71d7e8, bdacc893-6f57-4c89-9969-246ef3eaa65f, 55cae417-1c8f-4f8c-a317-4d6c07bfe9d1, 2a8860cd-2e52-4796-b1f6-cc42b00344b8, 8b9b6b5b-c6c9-4544-ba61-7705e16a0e3d, a370b37c-d061-429c-903e-77cb64833d34, 601e9177-709b-45b0-8992-92045437871f, 3970c372-d201-4111-8da8-b3c7dfe4939a, 5f1e731c-fe8b-495f-856c-fa22f5fdd2c7, 74398e78-cc8f-4f57-a608-1ea17acb9cfc, 70428b39-e379-45f8-8859-6b27df3c66d9, e56bf62c-4071-432d-a175-487aedefd481, 8537a2e2-cda8-47d1-8ff5-20ee509d1890, f9f310c5-f1c4-48c3-95e0-796b2e7d6c2c, e7c320a0-4ba3-40bb-b280-65dc379c3fe8, 71e35e4a-6a27-4d7c-a1e9-d364eb4e6880, 27c856fc-f898-437a-8ff8-d5d96a1d3cb7, e0ad08f5-4637-41e3-8dbd-4dbef80c5d7b, b1bdd01b-3289-47da-b0b8-973727d9e045, 3522320b-1ad9-4316-8828-bf7461e4b46d, f788c4e3-f84e-47ae-a0fd-d6dec2dd8aed, a6d54edc-8109-483d-89d8-ffc6316f7d38, ba15c2d0-7f47-46a0-8a17-cd975927d1ab, 8d38cf74-d13a-4f77-8fe9-22e55c286b71, f0c94d98-49c0-4472-8958-33f3aa19b616, 294c6feb-444b-4666-b96e-f971ed96fb18, 3ed6bb6b-ffd1-4387-ace9-3000b34f4003]
+2026-05-09 10:53:17 INFO  Listener - TEST PASSED: get_bookings
+2026-05-09 10:53:17 INFO  Listener - TEST STARTED: user_booking_list
+2026-05-09 10:53:18 ERROR Listener - TEST FAILED: user_booking_list
+2026-05-09 10:53:18 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <200>.
+
+2026-05-09 10:53:18 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 21:38:05 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 21:38:05 INFO  ApiChaining - Set the base Url
+2026-05-09 21:38:06 INFO  Listener - TEST STARTED: Login
+2026-05-09 21:38:06 ERROR Listener - TEST FAILED: Login
+2026-05-09 21:38:06 ERROR Listener - Failure Reason: java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+2026-05-09 21:38:06 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 21:39:35 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 21:39:35 INFO  ApiChaining - Set the base Url
+2026-05-09 21:39:36 INFO  Listener - TEST STARTED: Login
+2026-05-09 21:39:39 INFO  Listener - TEST PASSED: Login
+2026-05-09 21:39:39 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 21:45:19 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 21:45:19 INFO  Apichaining - Set the base Url
+2026-05-09 21:45:19 INFO  Listener - TEST STARTED: Login
+2026-05-09 21:45:22 INFO  Listener - TEST PASSED: Login
+2026-05-09 21:45:22 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 21:50:46 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 21:50:46 INFO  Apichaining - Set the base Url
+2026-05-09 21:50:47 INFO  Listener - TEST STARTED: Login
+2026-05-09 21:50:50 INFO  Apichaining - Login Successful
+2026-05-09 21:50:50 INFO  Apichaining - status code200
+2026-05-09 21:50:51 INFO  Listener - TEST PASSED: Login
+2026-05-09 21:50:51 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 21:50:53 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 21:50:53 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 21:59:27 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 21:59:27 INFO  Apichaining - Set the base Url
+2026-05-09 21:59:27 INFO  Listener - TEST STARTED: Login
+2026-05-09 21:59:31 INFO  Apichaining - Login Successful
+2026-05-09 21:59:31 INFO  Apichaining - status code200
+2026-05-09 21:59:31 INFO  Apichaining - Extract the token from response
+2026-05-09 21:59:31 INFO  Listener - TEST PASSED: Login
+2026-05-09 21:59:31 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 21:59:33 INFO  Apichaining - status code200
+2026-05-09 21:59:33 INFO  Apichaining - Take random id
+2026-05-09 21:59:34 INFO  Apichaining - booking id is2286
+2026-05-09 21:59:34 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 21:59:34 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 22:18:35 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 22:18:35 INFO  Apichaining - Set the base Url
+2026-05-09 22:18:36 INFO  Listener - TEST STARTED: Login
+2026-05-09 22:18:39 INFO  Apichaining - Login Successful
+2026-05-09 22:18:39 INFO  Apichaining - status code200
+2026-05-09 22:18:39 INFO  Apichaining - Extract the token from response
+2026-05-09 22:18:40 INFO  Listener - TEST PASSED: Login
+2026-05-09 22:18:40 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 22:18:42 INFO  Apichaining - status code200
+2026-05-09 22:18:42 INFO  Apichaining - Take random id
+2026-05-09 22:18:42 INFO  Apichaining - booking id is3813
+2026-05-09 22:18:42 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 22:18:42 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 22:18:44 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 22:18:44 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 22:32:21 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 22:32:21 INFO  Apichaining - Set the base Url
+2026-05-09 22:32:22 INFO  Listener - TEST STARTED: Login
+2026-05-09 22:32:25 INFO  Apichaining - Login Successful
+2026-05-09 22:32:25 INFO  Apichaining - status code200
+2026-05-09 22:32:25 INFO  Apichaining - Extract the token from response
+2026-05-09 22:32:25 INFO  Listener - TEST PASSED: Login
+2026-05-09 22:32:25 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 22:32:27 INFO  Apichaining - status code200
+2026-05-09 22:32:27 INFO  Apichaining - Take random id
+2026-05-09 22:32:27 INFO  Apichaining - booking id is124
+2026-05-09 22:32:27 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 22:32:27 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 22:32:28 INFO  Apichaining - status code200
+2026-05-09 22:32:28 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 22:32:28 INFO  Listener - TEST STARTED: update_booking
+2026-05-09 22:32:30 ERROR Listener - TEST FAILED: update_booking
+2026-05-09 22:32:30 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 22:32:30 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 22:33:43 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 22:33:43 INFO  Apichaining - Set the base Url
+2026-05-09 22:33:44 INFO  Listener - TEST STARTED: Login
+2026-05-09 22:33:47 INFO  Apichaining - Login Successful
+2026-05-09 22:33:47 INFO  Apichaining - status code200
+2026-05-09 22:33:47 INFO  Apichaining - Extract the token from response
+2026-05-09 22:33:47 INFO  Listener - TEST PASSED: Login
+2026-05-09 22:33:47 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 22:33:49 INFO  Apichaining - status code200
+2026-05-09 22:33:49 INFO  Apichaining - Take random id
+2026-05-09 22:33:49 INFO  Apichaining - booking id is415
+2026-05-09 22:33:49 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 22:33:49 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 22:33:50 INFO  Apichaining - status code200
+2026-05-09 22:33:50 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 22:33:50 INFO  Listener - TEST STARTED: update_booking
+2026-05-09 22:33:51 ERROR Listener - TEST FAILED: update_booking
+2026-05-09 22:33:51 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 22:33:51 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 22:36:03 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 22:36:03 INFO  Apichaining - Set the base Url
+2026-05-09 22:36:04 INFO  Listener - TEST STARTED: Login
+2026-05-09 22:36:07 INFO  Apichaining - Login Successful
+2026-05-09 22:36:07 INFO  Apichaining - status code200
+2026-05-09 22:36:07 INFO  Apichaining - Extract the token from response
+2026-05-09 22:36:07 INFO  Listener - TEST PASSED: Login
+2026-05-09 22:36:07 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 22:36:09 INFO  Apichaining - status code200
+2026-05-09 22:36:09 INFO  Apichaining - Take random id
+2026-05-09 22:36:09 INFO  Apichaining - booking id is1193
+2026-05-09 22:36:09 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 22:36:09 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 22:36:11 INFO  Apichaining - status code200
+2026-05-09 22:36:11 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 22:36:11 INFO  Listener - TEST STARTED: update_booking
+2026-05-09 22:36:12 ERROR Listener - TEST FAILED: update_booking
+2026-05-09 22:36:12 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 22:36:12 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 22:43:29 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 22:43:29 INFO  Apichaining - Set the base Url
+2026-05-09 22:43:29 INFO  Listener - TEST STARTED: Login
+2026-05-09 22:43:33 INFO  Apichaining - Login Successful
+2026-05-09 22:43:33 INFO  Apichaining - status code200
+2026-05-09 22:43:33 INFO  Apichaining - Extract the token from response
+2026-05-09 22:43:34 INFO  Listener - TEST PASSED: Login
+2026-05-09 22:43:34 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 22:43:36 INFO  Apichaining - status code200
+2026-05-09 22:43:36 INFO  Apichaining - Take random id
+2026-05-09 22:43:36 INFO  Apichaining - booking id is1148
+2026-05-09 22:43:36 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 22:43:36 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 22:43:38 INFO  Apichaining - status code200
+2026-05-09 22:43:38 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 22:43:38 INFO  Listener - TEST STARTED: update_booking
+2026-05-09 22:43:39 ERROR Listener - TEST FAILED: update_booking
+2026-05-09 22:43:39 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 22:43:39 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:01:27 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:01:27 INFO  Apichaining - Set the base Url
+2026-05-09 23:01:28 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:01:31 INFO  Apichaining - Login Successful
+2026-05-09 23:01:31 INFO  Apichaining - status code200
+2026-05-09 23:01:31 INFO  Apichaining - Extract the token from response
+2026-05-09 23:01:32 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:01:32 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:01:33 INFO  Apichaining - status code200
+2026-05-09 23:01:33 INFO  Apichaining - Take random id
+2026-05-09 23:01:33 INFO  Apichaining - booking id is45
+2026-05-09 23:01:33 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:01:33 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:01:34 INFO  Apichaining - status code200
+2026-05-09 23:01:34 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:01:34 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:01:39 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:01:39 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:03:18 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:03:18 INFO  Apichaining - Set the base Url
+2026-05-09 23:03:19 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:03:24 INFO  Apichaining - Login Successful
+2026-05-09 23:03:24 INFO  Apichaining - status code200
+2026-05-09 23:03:24 INFO  Apichaining - Extract the token from response
+2026-05-09 23:03:24 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:03:24 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:03:27 INFO  Apichaining - status code200
+2026-05-09 23:03:27 INFO  Apichaining - Take random id
+2026-05-09 23:03:27 INFO  Apichaining - booking id is28
+2026-05-09 23:03:27 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:03:27 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:03:29 INFO  Apichaining - status code200
+2026-05-09 23:03:29 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:03:29 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:03:31 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:03:31 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:07:31 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:07:31 INFO  Apichaining - Set the base Url
+2026-05-09 23:07:32 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:07:38 INFO  Apichaining - Login Successful
+2026-05-09 23:07:38 INFO  Apichaining - status code200
+2026-05-09 23:07:38 INFO  Apichaining - Extract the token from response
+2026-05-09 23:07:39 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:07:39 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:07:48 INFO  Apichaining - status code200
+2026-05-09 23:07:48 INFO  Apichaining - Take random id
+2026-05-09 23:07:48 INFO  Apichaining - booking id is436
+2026-05-09 23:07:48 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:07:48 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:07:50 INFO  Apichaining - status code200
+2026-05-09 23:07:50 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:07:50 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:07:51 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:07:51 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:07:53 ERROR Listener - TEST FAILED: Update_booking
+2026-05-09 23:07:53 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-05-09 23:07:53 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:08:54 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:08:54 INFO  Apichaining - Set the base Url
+2026-05-09 23:08:55 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:08:58 INFO  Apichaining - Login Successful
+2026-05-09 23:08:58 INFO  Apichaining - status code200
+2026-05-09 23:08:58 INFO  Apichaining - Extract the token from response
+2026-05-09 23:08:59 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:08:59 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:09:08 INFO  Apichaining - status code200
+2026-05-09 23:09:08 INFO  Apichaining - Take random id
+2026-05-09 23:09:08 INFO  Apichaining - booking id is2324
+2026-05-09 23:09:08 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:09:08 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:09:11 INFO  Apichaining - status code200
+2026-05-09 23:09:11 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:09:11 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:09:13 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:09:13 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:09:15 ERROR Listener - TEST FAILED: Update_booking
+2026-05-09 23:09:15 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-05-09 23:09:15 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:10:01 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:10:01 INFO  Apichaining - Set the base Url
+2026-05-09 23:10:02 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:10:10 INFO  Apichaining - Login Successful
+2026-05-09 23:10:10 INFO  Apichaining - status code200
+2026-05-09 23:10:10 INFO  Apichaining - Extract the token from response
+2026-05-09 23:10:11 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:10:11 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:10:22 INFO  Apichaining - status code200
+2026-05-09 23:10:22 INFO  Apichaining - Take random id
+2026-05-09 23:10:22 INFO  Apichaining - booking id is5408
+2026-05-09 23:10:22 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:10:22 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:10:27 INFO  Apichaining - status code200
+2026-05-09 23:10:27 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:10:27 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:10:31 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:10:31 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:10:32 ERROR Listener - TEST FAILED: Update_booking
+2026-05-09 23:10:32 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+2026-05-09 23:10:32 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:11:21 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:11:21 INFO  Apichaining - Set the base Url
+2026-05-09 23:11:21 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:11:31 INFO  Apichaining - Login Successful
+2026-05-09 23:11:31 INFO  Apichaining - status code200
+2026-05-09 23:11:31 INFO  Apichaining - Extract the token from response
+2026-05-09 23:11:32 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:11:32 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:11:37 INFO  Apichaining - status code200
+2026-05-09 23:11:37 INFO  Apichaining - Take random id
+2026-05-09 23:11:37 INFO  Apichaining - booking id is48
+2026-05-09 23:11:37 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:11:37 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:11:39 INFO  Apichaining - status code200
+2026-05-09 23:11:39 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:11:39 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:11:42 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:11:42 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:11:47 ERROR Listener - TEST FAILED: Update_booking
+2026-05-09 23:11:47 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 23:11:47 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:13:28 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:13:28 INFO  Apichaining - Set the base Url
+2026-05-09 23:13:29 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:13:34 INFO  Apichaining - Login Successful
+2026-05-09 23:13:34 INFO  Apichaining - status code200
+2026-05-09 23:13:34 INFO  Apichaining - Extract the token from response
+2026-05-09 23:13:34 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:13:34 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:13:39 INFO  Apichaining - status code200
+2026-05-09 23:13:39 INFO  Apichaining - Take random id
+2026-05-09 23:13:39 INFO  Apichaining - booking id is1364
+2026-05-09 23:13:39 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:13:39 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:13:41 INFO  Apichaining - status code200
+2026-05-09 23:13:41 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:13:41 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:13:49 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:13:49 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:13:53 ERROR Listener - TEST FAILED: Update_booking
+2026-05-09 23:13:53 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+2026-05-09 23:13:53 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:15:41 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:15:41 INFO  Apichaining - Set the base Url
+2026-05-09 23:15:41 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:15:47 INFO  Apichaining - Login Successful
+2026-05-09 23:15:47 INFO  Apichaining - status code200
+2026-05-09 23:15:47 INFO  Apichaining - Extract the token from response
+2026-05-09 23:15:48 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:15:48 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:15:50 INFO  Apichaining - status code200
+2026-05-09 23:15:50 INFO  Apichaining - Take random id
+2026-05-09 23:15:50 INFO  Apichaining - booking id is1575
+2026-05-09 23:15:50 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:15:50 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:15:54 INFO  Apichaining - status code200
+2026-05-09 23:15:54 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:15:54 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:15:59 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:15:59 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:16:04 INFO  Listener - TEST PASSED: Update_booking
+2026-05-09 23:16:04 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:34:49 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:34:49 INFO  Apichaining - Set the base Url
+2026-05-09 23:34:50 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:34:53 INFO  Apichaining - Login Successful
+2026-05-09 23:34:53 INFO  Apichaining - status code200
+2026-05-09 23:34:53 INFO  Apichaining - Extract the token from response
+2026-05-09 23:34:54 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:34:54 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:34:55 INFO  Apichaining - status code200
+2026-05-09 23:34:55 INFO  Apichaining - Take random id
+2026-05-09 23:34:55 INFO  Apichaining - booking id is1491
+2026-05-09 23:34:55 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:34:55 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:34:57 INFO  Apichaining - status code200
+2026-05-09 23:34:57 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:34:57 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:34:58 INFO  Apichaining - status code200
+2026-05-09 23:34:58 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:34:58 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:34:59 INFO  Apichaining - status code200
+2026-05-09 23:34:59 INFO  Listener - TEST PASSED: Update_booking
+2026-05-09 23:34:59 INFO  Listener - TEST STARTED: delete_booking
+2026-05-09 23:35:01 ERROR Listener - TEST FAILED: delete_booking
+2026-05-09 23:35:01 ERROR Listener - Failure Reason: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <201>.
+
+2026-05-09 23:35:01 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:35:37 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:35:37 INFO  Apichaining - Set the base Url
+2026-05-09 23:35:37 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:35:40 INFO  Apichaining - Login Successful
+2026-05-09 23:35:40 INFO  Apichaining - status code200
+2026-05-09 23:35:40 INFO  Apichaining - Extract the token from response
+2026-05-09 23:35:41 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:35:41 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:35:42 INFO  Apichaining - status code200
+2026-05-09 23:35:42 INFO  Apichaining - Take random id
+2026-05-09 23:35:42 INFO  Apichaining - booking id is1262
+2026-05-09 23:35:42 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:35:42 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:35:44 INFO  Apichaining - status code200
+2026-05-09 23:35:44 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:35:44 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:35:45 INFO  Apichaining - status code200
+2026-05-09 23:35:45 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:35:45 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:35:46 INFO  Apichaining - status code200
+2026-05-09 23:35:46 INFO  Listener - TEST PASSED: Update_booking
+2026-05-09 23:35:46 INFO  Listener - TEST STARTED: delete_booking
+2026-05-09 23:35:48 INFO  Apichaining - status code201
+2026-05-09 23:35:48 INFO  Listener - TEST PASSED: delete_booking
+2026-05-09 23:35:48 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-09 23:40:39 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-09 23:40:39 INFO  Apichaining - Set the base Url
+2026-05-09 23:40:39 INFO  Listener - TEST STARTED: Login
+2026-05-09 23:40:43 INFO  Apichaining - Login Successful
+2026-05-09 23:40:43 INFO  Apichaining - status code200
+2026-05-09 23:40:43 INFO  Apichaining - Extract the token from response
+2026-05-09 23:40:43 INFO  Listener - TEST PASSED: Login
+2026-05-09 23:40:43 INFO  Listener - TEST STARTED: getbookingids
+2026-05-09 23:40:45 INFO  Apichaining - status code200
+2026-05-09 23:40:45 INFO  Apichaining - Take random id
+2026-05-09 23:40:45 INFO  Apichaining - booking id is3331
+2026-05-09 23:40:45 INFO  Listener - TEST PASSED: getbookingids
+2026-05-09 23:40:45 INFO  Listener - TEST STARTED: getbooking
+2026-05-09 23:40:47 INFO  Apichaining - status code200
+2026-05-09 23:40:47 INFO  Listener - TEST PASSED: getbooking
+2026-05-09 23:40:47 INFO  Listener - TEST STARTED: Create_booking
+2026-05-09 23:40:48 INFO  Apichaining - status code200
+2026-05-09 23:40:48 INFO  Listener - TEST PASSED: Create_booking
+2026-05-09 23:40:48 INFO  Listener - TEST STARTED: Update_booking
+2026-05-09 23:40:49 INFO  Apichaining - status code200
+2026-05-09 23:40:49 INFO  Listener - TEST PASSED: Update_booking
+2026-05-09 23:40:49 INFO  Listener - TEST STARTED: delete_booking
+2026-05-09 23:40:51 INFO  Apichaining - status code201
+2026-05-09 23:40:51 INFO  Listener - TEST PASSED: delete_booking
+2026-05-09 23:40:51 INFO  Listener - ===== TEST SUITE FINISHED =====
