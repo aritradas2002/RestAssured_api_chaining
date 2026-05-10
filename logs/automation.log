@@ -394,3 +394,53 @@ Expected status code <200> but was <201>.
 2026-05-09 23:40:51 INFO  Apichaining - status code201
 2026-05-09 23:40:51 INFO  Listener - TEST PASSED: delete_booking
 2026-05-09 23:40:51 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-10 19:01:48 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-10 19:01:48 INFO  Apichaining - Set the base Url
+2026-05-10 19:01:48 INFO  Listener - TEST STARTED: Login
+2026-05-10 19:01:52 INFO  Apichaining - Login Successful
+2026-05-10 19:01:52 INFO  Apichaining - status code200
+2026-05-10 19:01:52 INFO  Apichaining - Extract the token from response
+2026-05-10 19:01:53 INFO  Listener - TEST PASSED: Login
+2026-05-10 19:01:53 INFO  Listener - TEST STARTED: getbookingids
+2026-05-10 19:01:54 INFO  Apichaining - status code200
+2026-05-10 19:01:54 INFO  Apichaining - Take random id
+2026-05-10 19:01:54 INFO  Apichaining - booking id is207
+2026-05-10 19:01:54 INFO  Listener - TEST PASSED: getbookingids
+2026-05-10 19:01:54 INFO  Listener - TEST STARTED: getbooking
+2026-05-10 19:01:56 INFO  Apichaining - status code200
+2026-05-10 19:01:56 INFO  Listener - TEST PASSED: getbooking
+2026-05-10 19:01:56 INFO  Listener - TEST STARTED: Create_booking
+2026-05-10 19:01:57 INFO  Apichaining - status code200
+2026-05-10 19:01:57 INFO  Listener - TEST PASSED: Create_booking
+2026-05-10 19:01:57 INFO  Listener - TEST STARTED: Update_booking
+2026-05-10 19:01:58 INFO  Apichaining - status code200
+2026-05-10 19:01:58 INFO  Listener - TEST PASSED: Update_booking
+2026-05-10 19:01:58 INFO  Listener - TEST STARTED: delete_booking
+2026-05-10 19:02:00 INFO  Apichaining - status code201
+2026-05-10 19:02:00 INFO  Listener - TEST PASSED: delete_booking
+2026-05-10 19:02:00 INFO  Listener - ===== TEST SUITE FINISHED =====
+2026-05-10 19:20:31 INFO  Listener - ===== TEST SUITE STARTED =====
+2026-05-10 19:20:31 INFO  Apichaining - Set the base Url
+2026-05-10 19:20:31 INFO  Listener - TEST STARTED: Login
+2026-05-10 19:20:35 INFO  Apichaining - Login Successful
+2026-05-10 19:20:35 INFO  Apichaining - status code200
+2026-05-10 19:20:35 INFO  Apichaining - Extract the token from response
+2026-05-10 19:20:36 INFO  Listener - TEST PASSED: Login
+2026-05-10 19:20:36 INFO  Listener - TEST STARTED: getbookingids
+2026-05-10 19:20:38 INFO  Apichaining - status code200
+2026-05-10 19:20:38 INFO  Apichaining - Take random id
+2026-05-10 19:20:38 INFO  Apichaining - booking id is1241
+2026-05-10 19:20:38 INFO  Listener - TEST PASSED: getbookingids
+2026-05-10 19:20:38 INFO  Listener - TEST STARTED: getbooking
+2026-05-10 19:20:40 INFO  Apichaining - status code200
+2026-05-10 19:20:40 INFO  Listener - TEST PASSED: getbooking
+2026-05-10 19:20:40 INFO  Listener - TEST STARTED: Create_booking
+2026-05-10 19:20:41 INFO  Apichaining - status code200
+2026-05-10 19:20:41 INFO  Listener - TEST PASSED: Create_booking
+2026-05-10 19:20:41 INFO  Listener - TEST STARTED: Update_booking
+2026-05-10 19:20:43 INFO  Apichaining - status code200
+2026-05-10 19:20:43 INFO  Listener - TEST PASSED: Update_booking
+2026-05-10 19:20:43 INFO  Listener - TEST STARTED: delete_booking
+2026-05-10 19:20:44 INFO  Apichaining - status code201
+2026-05-10 19:20:44 INFO  Listener - TEST PASSED: delete_booking
+2026-05-10 19:20:44 INFO  Listener - ===== TEST SUITE FINISHED =====

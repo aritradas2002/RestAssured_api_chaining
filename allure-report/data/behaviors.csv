@@ -1,0 +1,7 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","Booking Management Module","0","Update Booking API","1","0","Verify update of existing booking","0"
+"0","Authentication Module","0","Login API","1","0","Verify user authentication with valid credentials","0"
+"0","Booking Module","0","Get Booking Details API","1","0","Verify retrieval of booking details by booking ID","0"
+"0","Booking Management Module","0","Delete Booking API","1","0","Verify deletion of booking","0"
+"0","Booking Management Module","0","Create Booking API","1","0","Verify creation of new booking","0"
+"0","Booking Module","0","Get Booking IDs API","1","0","Verify retrieval of all booking IDs","0"

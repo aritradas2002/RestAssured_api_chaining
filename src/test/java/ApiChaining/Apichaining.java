@@ -3,6 +3,11 @@ package ApiChaining;
 import Pojo.Bookingdates_pojo;
 import Pojo.Create_booking_pojo;
 import Pojo.Login_Pojo;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
@@ -27,6 +32,7 @@ public class Apichaining {
     Create_booking_pojo updateBookingPojo;
     @BeforeTest
     public void setup(){
+        RestAssured.filters(new AllureRestAssured());
         logger.info("Set the base Url");
         login_pojo=new Login_Pojo();
 
@@ -34,7 +40,10 @@ public class Apichaining {
         RestAssured.baseURI="https://restful-booker.herokuapp.com";
 
     }
-
+    @Epic("Authentication Module")
+    @Feature("Login API")
+    @Story("Verify user authentication with valid credentials")
+    @Description("This test verifies that the user can successfully login using valid username and password and receive authentication token.")
     @Test(priority = 1)
     public void Login(){
         login_pojo.setUsername("admin");
@@ -55,6 +64,10 @@ public class Apichaining {
         System.out.println("token"+token);
 
     }
+    @Epic("Booking Module")
+    @Feature("Get Booking IDs API")
+    @Story("Verify retrieval of all booking IDs")
+    @Description("This test verifies that all booking IDs are fetched successfully from the booking service.")
     @Test(priority = 2)
     public void getbookingids(){
         Response response= given()
@@ -73,6 +86,10 @@ public class Apichaining {
         logger.info("booking id is"+id);
 
     }
+    @Epic("Booking Module")
+    @Feature("Get Booking Details API")
+    @Story("Verify retrieval of booking details by booking ID")
+    @Description("This test verifies that booking details are retrieved successfully using a valid booking ID.")
     @Test(priority = 3)
     public void getbooking(){
         Response response= given()
@@ -85,6 +102,10 @@ public class Apichaining {
                 .extract().response();
         logger.info("status code"+ response.getStatusCode());
     }
+    @Epic("Booking Management Module")
+    @Feature("Create Booking API")
+    @Story("Verify creation of new booking")
+    @Description("This test verifies that a new booking can be created successfully with valid booking payload.")
     @Test(priority = 4)
     public void Create_booking() {
         Bookingdates_pojo bookingDates =
@@ -127,6 +148,10 @@ public class Apichaining {
                 .log().all().extract().response();
         logger.info("status code"+ response.getStatusCode());
     }
+    @Epic("Booking Management Module")
+    @Feature("Update Booking API")
+    @Story("Verify update of existing booking")
+    @Description("This test verifies that an existing booking is updated successfully using valid booking ID and updated payload.")
     @Test(priority = 5)
     public void Update_booking() {
         Bookingdates_pojo bookingDates =
@@ -170,6 +195,10 @@ public class Apichaining {
         logger.info("status code"+ response.getStatusCode());
 
     }
+    @Epic("Booking Management Module")
+    @Feature("Delete Booking API")
+    @Story("Verify deletion of booking")
+    @Description("This test verifies that a booking is deleted successfully using a valid booking ID.")
     @Test(priority = 6)
     public void delete_booking(){
        Response response=given() .header("Content-Type","application/json")
